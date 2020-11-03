@@ -4,6 +4,37 @@ All notable changes to this project will be documented in this file.
 Each new release typically also includes the latest modulesync defaults.
 These should not affect the functionality of the module.
 
+## [v8.1.0](https://github.com/voxpupuli/puppet-splunk/tree/v8.1.0) (2020-11-03)
+
+[Full Changelog](https://github.com/voxpupuli/puppet-splunk/compare/v8.0.0...v8.1.0)
+
+**Implemented enhancements:**
+
+- Add support for FreeBSD [\#282](https://github.com/voxpupuli/puppet-splunk/pull/282) ([martijndegouw](https://github.com/martijndegouw))
+- Add support for OpenSUSE [\#281](https://github.com/voxpupuli/puppet-splunk/pull/281) ([martijndegouw](https://github.com/martijndegouw))
+
+**Fixed bugs:**
+
+- Fix systemd service file locations to documented locations [\#297](https://github.com/voxpupuli/puppet-splunk/pull/297) ([martijndegouw](https://github.com/martijndegouw))
+- Workaround a change in behavior of ensure\_packages with stdlib [\#296](https://github.com/voxpupuli/puppet-splunk/pull/296) ([martijndegouw](https://github.com/martijndegouw))
+- Check if splunk forwarder was already installed when seeding password. [\#278](https://github.com/voxpupuli/puppet-splunk/pull/278) ([mattk42](https://github.com/mattk42))
+
+**Closed issues:**
+
+- Hard coded dependency net-tools [\#275](https://github.com/voxpupuli/puppet-splunk/issues/275)
+- Cant figure out how to set the index that splunk-forwarder sends to [\#205](https://github.com/voxpupuli/puppet-splunk/issues/205)
+
+**Merged pull requests:**
+
+- Use a more concise rspec-puppet syntax [\#301](https://github.com/voxpupuli/puppet-splunk/pull/301) ([ekohl](https://github.com/ekohl))
+- adopt test to newer rspec-puppet syntax [\#300](https://github.com/voxpupuli/puppet-splunk/pull/300) ([bastelfreak](https://github.com/bastelfreak))
+- Correct web\_httpport field name [\#299](https://github.com/voxpupuli/puppet-splunk/pull/299) ([thebeanogamer](https://github.com/thebeanogamer))
+- modulesync 3.0.0 & puppet-lint updates [\#293](https://github.com/voxpupuli/puppet-splunk/pull/293) ([bastelfreak](https://github.com/bastelfreak))
+- \(docs\) cleaned up the TBD sections. [\#291](https://github.com/voxpupuli/puppet-splunk/pull/291) ([binford2k](https://github.com/binford2k))
+- Support ppc64le [\#290](https://github.com/voxpupuli/puppet-splunk/pull/290) ([treydock](https://github.com/treydock))
+- changing fact name [\#288](https://github.com/voxpupuli/puppet-splunk/pull/288) ([jose-lmax](https://github.com/jose-lmax))
+- Use voxpupuli-acceptance [\#283](https://github.com/voxpupuli/puppet-splunk/pull/283) ([ekohl](https://github.com/ekohl))
+
 ## [v8.0.0](https://github.com/voxpupuli/puppet-splunk/tree/v8.0.0) (2020-02-12)
 
 [Full Changelog](https://github.com/voxpupuli/puppet-splunk/compare/v7.3.0...v8.0.0)
